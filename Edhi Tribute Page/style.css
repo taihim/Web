@@ -1,0 +1,60 @@
+.main{
+  background-color:white;
+  padding:80px;
+  padding-bottom:10px;
+}
+.secondary{
+  background-color:black;
+  padding:60px;
+  padding-bottom:1px;
+  padding-left:80px;
+  padding-right:80px;
+}
+
+#he1{
+  
+  padding-left:340px;
+  color:white;
+}
+
+#he2{
+  padding-left:300px;
+  color:white;
+  
+}
+.well-sm{
+  padding-left:280px;
+  background-color:white;
+  padding-bottom:1px;
+  padding-top:1px;
+}
+#img1{
+
+  
+}
+#p1{
+  color:white;
+   }
+
+.third{
+  background-color:black;
+}
+
+#p2{
+  color:white;
+}
+
+#list{
+  color:white;
+}
+#pre1{
+  background-color:black;
+  color:white;
+  font-size:18px;
+}
+
+#p5{
+  
+  color:black;
+  
+}
