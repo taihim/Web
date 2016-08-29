@@ -3,11 +3,14 @@ li a {
   color:white;
   display:block;
   text-align:center;
-  padding:14px 16px;
+  padding-top:15px;
+  padding-bottom:10px;
+  padding-right:30px;
+  padding-left:30px;
 }
 
 li{
-  float:left;
+  float:right;
 }
 
 li a:hover{
@@ -18,7 +21,12 @@ li a:hover{
   
   background-color:#333;
   list-style-type:none;
-  overflow:hidden;
+  width:100%;
   margin:0;
   padding:0;
+  overflow:hidden;
+  position:fixed;
+	top:0;
+	left:0;
+  
 }
