@@ -1,16 +1,21 @@
-li a { 
+body{
+  margin:0;
+  background-color: #85929e;
+}
+
+
+li a {
   text-decoration:none;
   color:white;
   display:block;
   text-align:center;
-  padding-top:15px;
-  padding-bottom:10px;
-  padding-right:30px;
-  padding-left:30px;
+  padding:20px 20px 25px 20px;
 }
 
 li{
   float:right;
+  position:relative;
+  right:300px;
 }
 
 li a:hover{
@@ -18,15 +23,58 @@ li a:hover{
 }
 
 #navbar{
-  
+
   background-color:#333;
   list-style-type:none;
-  width:100%;
+  overflow:hidden;
   margin:0;
   padding:0;
-  overflow:hidden;
+  width:100%;
   position:fixed;
-	top:0;
-	left:0;
-  
+  top:0;
+}
+
+#sec1{
+  padding-top:60px;
+  padding-bottom: 30px;
+  margin-right: 500px;
+  margin-left: 500px;
+  font-size: 20px;
+  background-color: #a6acaf ;
+}
+
+#p1
+{
+  padding-left: 16px;
+  padding-top: 15px;
+  margin-top: 85px;
+  margin-bottom: 120px;
+  text-align: center;
+
+}
+
+#me{
+  margin-top: 60px;
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-left: 10px;
+  float:right;
+}
+
+#sec2{
+  padding-top:60px;
+  padding-bottom: 30px;
+  margin-right: 500px;
+  margin-left: 500px;
+  font-size: 20px;
+  background-color: #a6acaf ;
+}
+
+#sec3{
+  padding-top:60px;
+  padding-bottom: 30px;
+  margin-right: 500px;
+  margin-left: 500px;
+  font-size: 20px;
+  background-color: #a6acaf ;
 }
