@@ -1,0 +1,67 @@
+body{
+background: #eee;
+}
+
+
+.client_server{
+    
+    background: #eee;
+    display: grid;
+    grid-template-rows: 200px 1px 1px 500px;
+    align-content: center; 
+    justify-content: center;
+}
+
+.query{
+    top:0;
+    bottom:0;
+    position: relative;
+    animation: fade 4s 0s infinite ease-in both;
+ 
+
+}
+
+
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+        top: 100px;
+
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+        top: -90px;
+    }
+
+}
+.query2{
+    top:0;
+    bottom: 0;
+    position: relative;
+
+    animation: fade2 4s 0s infinite ease-out both;
+}
+
+@keyframes fade2{
+    0%{
+        opacity:0;
+        top: -90px;
+    }
+
+    50%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:0;
+        top: 100px;
+    }
+}
+
+}
