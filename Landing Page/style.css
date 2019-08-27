@@ -4,7 +4,7 @@
     --primary: #ddd;
     --dark: #333;
     --light: #fff;
-    --shadow: 0 1px 5px rgba(104,104,104,0.8);
+    --shadow: 5px 10px 10px rgba(104,104,104,0.8);
 }
 
 html{
@@ -38,12 +38,20 @@ img{
 }
 
 /* Navigation */
+
+/*
+.main-nav{
+    position:sticky;
+    top: 0;
+}
+*/
+
 .main-nav ul{
     display: grid;
-    grid-gap: 20px;
-    padding: 0;
+    grid-gap: 5px;
+    padding: 0px;
     list-style: none;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .main-nav a{
@@ -56,12 +64,30 @@ img{
     text-transform: uppercase;
     font-size: 1.1rem;
     box-shadow: var(--shadow);
+  
 }
 
 .main-nav a:hover{
-    background: var(--dark);
-    color: var(--light);
+    /*background: var(--dark);
+    color: var(--light);*/
+    animation-name: yolo;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards;
 }
+
+@keyframes yolo{
+    0%{
+        color: var(--dark);
+        background: var(--primary);  
+}
+
+    100%{
+        color:var(--light);
+        background: var(--dark);
+    }
+}
+
+
 
 /* Top container */
 
@@ -77,7 +103,7 @@ img{
 .showcase{
     grid-area: showcase;
     min-height: 400px;
-    background: url();
+    background: url(https://cdn.wccftech.com/wp-content/uploads/2019/06/Monster-Hunter-World-Iceborne-Logo.jpg);
     background-size: cover;
     background-position: center;
     padding: 3rem;
@@ -87,6 +113,7 @@ img{
     justify-content: center;
     box-shadow: var(--shadow);
 }
+
 
 .showcase h1{
     font-size: 4rem;
